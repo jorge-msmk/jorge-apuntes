@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ApuntesVisualComponent } from './apuntes-visual.component';
+import { ApuntesAngularComponent } from './apuntes-angular.component';
 
-describe('ApuntesVisualComponent', () => {
-  let component: ApuntesVisualComponent;
-  let fixture: ComponentFixture<ApuntesVisualComponent>;
+describe('ApuntesAngularComponent', () => {
+  let component: ApuntesAngularComponent;
+  let fixture: ComponentFixture<ApuntesAngularComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ApuntesVisualComponent]
+      imports: [ApuntesAngularComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(ApuntesVisualComponent);
+    fixture = TestBed.createComponent(ApuntesAngularComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
